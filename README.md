@@ -10,11 +10,11 @@ for the envirement we will be using:
 - Decorator for debuging.
 - Google Apps Script GitHub Assistant for the intergration with git.
 
-# Step 1: Create your own bot
-# Step 2: Create a script in Google script
-# Step 3: Create sheet in Google spreadsheets
-# Step 4: Connect the project to the Google Apps Script GitHub Assistant.
-# Step 5: Activate the bot
+## Step 1: Create your own bot
+## Step 2: Create a script in Google script
+## Step 3: Create sheet in Google spreadsheets
+## Step 4: Connect the project to the Google Apps Script GitHub Assistant.
+## Step 5: Activate the bot
 Copy the code from "Code.js" to your script.
-# Step 6: Connect the bot to decorator
-# Step 7: Develop your bot
+## Step 6: Connect the bot to decorator
+## Step 7: Develop your bot
