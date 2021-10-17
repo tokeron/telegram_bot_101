@@ -2,16 +2,17 @@
 
 This tutorial is a qiuck start to develop a telegram bot.  
 All the tools in this tutorial are free of charge, including the cloud service and the database.  
-Fisrt I will describe the envirement  
+Fisrt I will describe the envirement.
+
 For the envirement we will be using:  
 - Telegram API for the front end.
-- Google script to develop the code and publish it to the web. (using JavaScript)
-- Google sheets ad a database.
+- Google apps script for the beckend ( both as the ide and the host od the webApp ). We will be using JavaScript.
+- Google sheets as the database.
 - Decorator for debuging.
 - Google Apps Script GitHub Assistant for the intergration with git.
 
 ## Step 1: Create your own bot
-First, we will use the telegram [botfather](https://t.me/BotFather) in order to create a bot.
+First, we need to find the telegram [botfather](https://t.me/BotFather) in order to create a bot.
 After creating the bot you'll get a token. This token will be used to connect the script eith your bot.
 *Pay attention!* anyone with access to the tokern will be able to change the bot backend - therefore you need to save your token in sectet, and never publish it in your git.
 
