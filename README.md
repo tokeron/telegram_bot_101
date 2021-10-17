@@ -1,9 +1,9 @@
 # telegram_bot_101
 
-This tutorial is a qiuck start to develop a telegram bot.\n
-All the tools in this tutorial are free of charge, including the cloud service and the database.\n
-Fisrt I will describe the envirement\n
-For the envirement we will be using:
+This tutorial is a qiuck start to develop a telegram bot.  
+All the tools in this tutorial are free of charge, including the cloud service and the database.  
+Fisrt I will describe the envirement  
+For the envirement we will be using:  
 - Telegram API for the front end.
 - Google script to develop the code and publish it to the web. (using JavaScript)
 - Google sheets ad a database.
