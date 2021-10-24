@@ -14,13 +14,17 @@ For the envirement we will be using:
 ## Step 1: Create your own bot
 First, we need to find the telegram [botfather](https://t.me/BotFather) in order to create a bot.
 After creating the bot you'll get a token. This token will be used to connect the script eith your bot.
-*Pay attention!* anyone with access to the tokern will be able to change the bot backend - therefore you need to save your token in sectet, and never publish it in your git.
+*Pay attention!* anyone with access to the token will be able to change the bot backend - therefore you need to save your token in sectet, and never publish it in your repo.
 
-## Step 2: Create a script in Google script
+## Step 2: Create a project in Google script
 [google script](https://script.google.com/) *Apps Script is a rapid application development platform that makes it fast and easy to create business applications that integrate with G Suite*.
 Create a new project in [google script](https://script.google.com/)
 
 ## Step 3: Create sheet in Google spreadsheets
+We will be using a spreadsheet as our database.
+It's not the neatest way to use a DB, and I would prefer to use a database such as MySql or MongoDB, 
+but in order to keep the hole project free we will be using Google spreadsheets.
+I also think that it's a great way to understand get dirty with the data 
 
 ## Step 4: Connect the project to the Google Apps Script GitHub Assistant.
 
