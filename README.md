@@ -40,7 +40,7 @@ In order to be able to connect the google apps script ide with your repo you can
 5. Now your environment is ready! You are welcome to fork this project and pull this repo.
 
 ## Step 5: Activate the bot
-Note that you have two files:
+After you pulled succesfuly the repo you should see two files:
   - GlobalVars.gs
   - Code.gs
 
