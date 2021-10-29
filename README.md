@@ -84,3 +84,4 @@ Follow the instructions in the following [git](https://github.com/d-s-t/tbot_dec
 ## Step 7: Develop your bot
 You are all set now! 
 Now you are free to use your imagination to create a bot that does everything you can think of.
+You can see examples in [tbot](https://github.com/tokeron/Tbot) or other bots all over the internet.
