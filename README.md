@@ -55,10 +55,12 @@ Now you can edit this file:
 1. Insert your bot token.
 2. Deploy your code:
   - Choose Deploy -> New deployment :![image](https://user-images.githubusercontent.com/49562866/139410379-cb97879c-96ce-47c3-b075-fbe345aaf319.png).
-  - Choose a Web app deployment, with access to Anyone: ![image](https://user-images.githubusercontent.com/49562866/139410634-a5f09ad6-924d-4fff-be08-ceac54e556c0.png).
+  - Choose a Web app deployment: ![image](https://user-images.githubusercontent.com/49562866/139420137-01600c68-5161-4e68-ad42-a380be11a5b6.png)
+  - Make access to Anyone ![image](https://user-images.githubusercontent.com/49562866/139410634-a5f09ad6-924d-4fff-be08-ceac54e556c0.png).
+  - Authorise access. ![image](https://user-images.githubusercontent.com/49562866/139420356-83da2ed5-bbd8-4dbe-b8f2-da2fac1019be.png)
   - Deploy.
   - Copy the Web app URL and paste it in the GlobalVars.gs file as the webAppUrl.
-
+  - Paste the spreadsheet link from step 3 to the database var in GlobalVars.
 The Code.gs in the main file.
 Let's go over the functions in this file.
 
