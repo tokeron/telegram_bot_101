@@ -1,5 +1,5 @@
 /**
- * This is a basic bot that sends hello every time he get a message.
+ * This is a basic bot that sends hello every time he gets a message.
  */
 
 
