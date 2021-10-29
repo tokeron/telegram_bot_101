@@ -21,7 +21,7 @@ After creating the bot you'll get a token. This token will be used to connect th
 Create a new project in [google script](https://script.google.com/)
 
 ## Step 3: Create sheet in Google spreadsheets
-We will be using a spreadsheet as our database.
+We will be using a [spreadsheet](https://docs.google.com/spreadsheets) as our database.
 It's not the neatest way to use a DB, and I would prefer to use a database such as MySql or MongoDB, 
 but in order to keep the whole project free, we will be using Google spreadsheets.
 I also think that it's a great way to understand get dirty with the data 
