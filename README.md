@@ -48,10 +48,19 @@ After you pulled succesfuly the repo you should see two files:
 The GlobalVars.gs is the file that will contain your secret token and web url. 
 We want to keep this file in private and never share it in the git.
 For that, choose the settings symbol (third): 
-![image](https://user-images.githubusercontent.com/49562866/139400642-d1ff985a-f5a0-4f63-9fb4-1c38c258d23a.png)
+![image](https://user-images.githubusercontent.com/49562866/139410034-2a69c1a4-ea0e-4ddf-9e86-0d919efded97.png)
+
 Add to the Ignore file patterns: GlobalVars.
+Now you can edit this file:
+1. Insert your bot token.
+2. Deploy your code:
+  - Choose Deploy -> New deployment :![image](https://user-images.githubusercontent.com/49562866/139410379-cb97879c-96ce-47c3-b075-fbe345aaf319.png).
+  - Choose a Web app deployment, with access to Anyone: ![image](https://user-images.githubusercontent.com/49562866/139410634-a5f09ad6-924d-4fff-be08-ceac54e556c0.png).
+  - Deploy.
+  - Copy yhe Web app URL and past it in the GlobalVars.gs file as the weburl.
 
 The Code.gs in the main file.
+Let's go over the functions in this file.
 
 
 
