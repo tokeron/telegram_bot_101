@@ -27,9 +27,33 @@ but in order to keep the hole project free we will be using Google spreadsheets.
 I also think that it's a great way to understand get dirty with the data 
 
 ## Step 4: Connect the project to the Google Apps Script GitHub Assistant.
+In order to be able to connect the google apps script ide with your repo you can use the Google Apps Script GitHub Assistant.
+1. [Download](https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo?hl=en) the "Google Apps Script GitHub Assistant" extention.
+2. Turn on the "Google Apps Script API" in the apps script settings.
+  - [Go](https://script.google.com/) into the main apps script page.
+  - Get into settings, choose the "Google Apps Script API" and turn it on.
+3. Go to your project in the google apps script. now you should see a git bar. Click on the "Login to SCM".
+4. Get a [token](https://github.com/settings/tokens) from your git.
+  - Choose "Generate a new token".
+  - Select in the "scopes": repo and gist.
+  - copy the token and past in the extention.
+5. Now your environment is ready! You are welcome to fork this project and pull this repo.
 
 ## Step 5: Activate the bot
-Copy the code from "Code.js" to your script.
+Note that you have two files:
+  - GlobalVars.gs
+  - Code.gs
+
+
+The GlobalVars.gs is the file that will contain your secret token and web url. 
+We want to keep this file in private and never share it in the git.
+For that, choose the settings symbol (third): 
+![image](https://user-images.githubusercontent.com/49562866/139400642-d1ff985a-f5a0-4f63-9fb4-1c38c258d23a.png)
+Add to the Ignore file patterns: GlobalVars.
+
+The Code.gs in the main file.
+
+
 
 ## Step 6: Connect the bot to decorator
 
